@@ -5,6 +5,7 @@ class VideoModel {
   final String coverUrl;
   final String? videoUrl;
   final String category;
+  final DateTime? watchedAt; 
   final DateTime createdAt;
   bool isFavorite;
   bool isWatched;
@@ -16,6 +17,7 @@ class VideoModel {
     required this.coverUrl,
     this.videoUrl,
     required this.category,
+    this.watchedAt,
     required this.createdAt,
     this.isFavorite = false,
     this.isWatched = false,
