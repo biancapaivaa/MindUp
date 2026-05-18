@@ -63,21 +63,13 @@ class _LoginScreenState extends State<LoginScreen> {
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  Icon(
-                    Icons.play_circle_filled,
-                    size: 80,
-                    color: Colors.pink[400],
-                  ),
-                  const SizedBox(height: 16),
-                  Text(
-                    'EduStream',
-                    style: GoogleFonts.poppins(
-                      fontSize: 32,
-                      fontWeight: FontWeight.bold,
-                      color: Colors.pink[700],
+                  Image.asset(
+                    'assets/logo.png',
+                    width: 300,
+                    height: 300,
+                    fit: BoxFit.contain,
                     ),
-                  ),
-                  const SizedBox(height: 48),
+                    const SizedBox(height: 3),
                   Form(
                     key: _formKey,
                     child: Column(

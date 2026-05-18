@@ -92,7 +92,7 @@ class _SplashScreenState extends State<SplashScreen>
                       ),
                       const SizedBox(height: 30),
                       Text(
-                        'EduStream',
+                        'MindUp',
                         style: GoogleFonts.poppins(
                           fontSize: 48,
                           fontWeight: FontWeight.bold,
